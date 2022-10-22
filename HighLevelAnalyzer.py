@@ -12,7 +12,7 @@ class Hla(HighLevelAnalyzer):
                 'format': 'Error!'
             },
             "hi2c": {
-                'format': 'address: {{data.address}}; data_[{{data.count}}]: [ {{data.data}} ]'
+                'format': 'address: {{data.address}}; data[{{data.count}}]: [ {{data.data}} ]'
             }
         }
         
